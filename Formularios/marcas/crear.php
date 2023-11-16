@@ -52,7 +52,7 @@ require_once("../../config/conexion.php");
                         <form action="<?php echo base_url; ?>CRUDM/insertarDatos.php" method="POST">
                             <div class="mb-3">
                                 <label for="nombreM" class="form-label">Nombre del estado</label>
-                                <input type="text" class="form-control" id="nombreM" name="nombreM" placeholder="Nombre de la marca" required>
+                                <input type="text" class="form-control" id="nombreM" name="nombreM" placeholder="Nombre del estado" required>
                             </div>
                             <div class="text-center">
                                 <a href="<?php echo base_url; ?>Formularios/marcas/index.php" type="submit" class="btn btn-outline-secondary">Cancelar</a>
